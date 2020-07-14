@@ -1,4 +1,4 @@
-#prompt
+#Introduction to OpenMP
 
 In this assignment, you will be writing a program that parallelizes computing the sum and max of an array of values. Your code should do the following:
 
