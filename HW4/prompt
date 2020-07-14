@@ -1,0 +1,4 @@
+#Advanced GPU Programs
+
+Overview:
+In this assignment, you will be writing two GPU programs that require you to understand how to efficiently write GPU programs to solve complex problems.The first program will perform sparse matrix-vector multiplication(SpMV), in which a sparse matrix is multiplied against a dense vector. The second program consists of an exclusive prefix-sum scan, which takes a vector of integers and outputs a vector consisting of the some of values up to that point. You are expected to consider coalesced memory accesses, communication costs between threads, and use of shared memory along with any other GPU topics we have discussed in the course.
