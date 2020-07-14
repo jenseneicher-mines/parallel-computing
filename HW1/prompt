@@ -1,0 +1,9 @@
+#prompt
+
+In this assignment, you will be writing a program that parallelizes computing the sum and max of an array of values. Your code should do the following:
+
+Create and populate an array of size N (N is populated from a command-line argument, for which the template has code to parse) with random integers from the range [0,1000).
+Determine the maximum and sum of the populated array using both a serial implementation and a parallel implementation using OpenMP.
+One restriction for this first assignment is you are not allowed to use the OpenMP reduction clause, as I would like you to think more explicitly about the orchestration necessary for this task, rather than deferring it to the runtime. If you are interested in evaluating the performance of your implementation, a TimePoint class is provided. To use, see the documentation in the header file.
+
+As well as the correct program, you will be submitting a short report (0.5 to 1 pages) that describes the approach you used to parallelize the program. As a guide, consider how the decisions you made fit into our 4 stage process of parallelization (decomposition, assignment, orchestration, and mapping).
