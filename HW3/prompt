@@ -1,0 +1,4 @@
+#Introduction to GPU Programming
+
+Overview:
+In this assignment, you will be writing two GPU programs in order to familiarize yourself with the steps of building a GPU program and debugging GPU programs. The first program is similar in some respects to the first CPU assignment in the course: you will be processing a matrix to determine how many instances of “1” are in the matrix. The second program will be transposing a matrix.
