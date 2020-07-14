@@ -1,0 +1,4 @@
+#NBody Simulation
+
+Overview:
+In this assignment, you will implement an n-body simulation, which is a prediction of the movements of a large number of particles that interact with one another gravitationally. You will need to finish implementing a sequential version of this simulation and study the performance of the sequential version. Then you will be directed to use OpenMP to improve the programs’ performance through shared memory parallelism. You will need to instrument your code to determine where the most time is spent in computation and evaluate where optimizations are most valuable. You will also need to focus on avoiding sequential bottlenecks, memory contention, and workload imbalance. 
